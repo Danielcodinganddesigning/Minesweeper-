@@ -9,6 +9,9 @@ import { CoreModule } from './core/core.module';
 import { SharedModule } from './shared/shared.module';
 import { BestScoresTableModule } from './best-scores-table/best-scores-table.module';
 import { CellModule } from './cell/cell.module';
+import { AppRoutingModule } from './app-routing.module';
+import { GameComponent } from './game/game.component';
+import { StartScreenComponent } from './start-screen/start-screen.component';
 
 @Injectable()
 export class MinesweeperHammerConfig extends HammerGestureConfig {
@@ -23,6 +26,8 @@ export class MinesweeperHammerConfig extends HammerGestureConfig {
 @NgModule({
     declarations: [
         AppComponent,
+        GameComponent,
+        StartScreenComponent
     ],
     imports: [
         BrowserModule,
@@ -32,6 +37,7 @@ export class MinesweeperHammerConfig extends HammerGestureConfig {
         SharedModule,
         BestScoresTableModule,
         CellModule,
+        AppRoutingModule,
     ],
     bootstrap: [AppComponent],
     providers: [{
