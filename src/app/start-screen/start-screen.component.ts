@@ -13,7 +13,7 @@ export class StartScreenComponent implements OnInit {
     document.getElementById("firstLayer")?.classList.add("hidden");
     document.getElementById("transition")?.classList.remove("hidden");
     // this.showNewPageFlag = !this.showNewPageFlag;
-    setTimeout(() => {this.router.navigate(['/game']);}, 5000);
+    setTimeout(() => {this.router.navigate(['/menu']);}, 5000);
     
   }
 

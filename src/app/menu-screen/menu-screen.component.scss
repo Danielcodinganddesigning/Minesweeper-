@@ -1,0 +1,48 @@
+.menu{
+    position: absolute;
+    left: 40%; /* Centering horizontally */
+}
+
+.red-rec{
+    width: 400px;
+    height: 844px;
+    top: -19%;
+    z-index: 1;
+    position: absolute;
+
+}
+.background {
+    width: 390px;
+    height: 844px;
+    top: 0px;
+    z-index: -1;
+}
+.computer{
+    width: 229px;
+    height: 452px;
+    top: +39%;
+    z-index: 2;
+    position: absolute;
+    left: 21%;
+}
+.text-container {
+    position: absolute;
+    font-family: pixelify sans;
+    text-align: center;
+    margin-top: 50%;
+    top: calc(50% - 422px);
+    width: 300px;
+    z-index: 3; /* Ensure text is above the circle */
+    font-size: 24px;
+    color: white;
+    left: 12%;
+
+}
+.second-row {
+    margin: 0%;
+    }
+    
+    .first-row {
+    font-size: 24px;
+    margin: 0%;
+    }

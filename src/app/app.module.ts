@@ -12,6 +12,7 @@ import { CellModule } from './cell/cell.module';
 import { AppRoutingModule } from './app-routing.module';
 import { GameComponent } from './game/game.component';
 import { StartScreenComponent } from './start-screen/start-screen.component';
+import { MenuScreenComponent } from './menu-screen/menu-screen.component';
 
 @Injectable()
 export class MinesweeperHammerConfig extends HammerGestureConfig {
@@ -27,7 +28,8 @@ export class MinesweeperHammerConfig extends HammerGestureConfig {
     declarations: [
         AppComponent,
         GameComponent,
-        StartScreenComponent
+        StartScreenComponent,
+        MenuScreenComponent
     ],
     imports: [
         BrowserModule,
